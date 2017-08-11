@@ -1,1 +1,12 @@
-AAAAAAADSDSAD 1
+git status     查看当前工作状态
+git add.或者“具体文件名称” 把当前文件提交到暂存区
+git commit -a -m‘本次修改注释’
+分两种情况：
+	第一种GitHub（远程服务器）；
+	git remote add origin"你的GitHub远程仓库地址"   关联远程仓库
+	git push -u origin master 提交到远程仓库，首次提交-u
+	第二种公司自己的git服务器
+	git push
+
+注意，
+git clone git地址             下载git上的项目到本地
