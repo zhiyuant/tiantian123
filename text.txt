@@ -9,4 +9,5 @@ git commit -a -m‘本次修改注释’
 	git push
 
 注意，
-git clone git地址             下载git上的项目到本地（）
+git clone git地址             下载git上的项目到本地
+git remote remove origin  //解除关联
