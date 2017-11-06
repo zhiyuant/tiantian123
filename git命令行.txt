@@ -1,0 +1,36 @@
+git复习:
+
+git是分布式 ，svn是集成式
+版本控制工具，
+1.三个区：工作区，暂存区，版本库
+	
+git init（一般用不上）		初始化目录
+
+常用：
+git status 			查看当前目录状态
+git add ./具体文件名称   	提交到缓存区
+git conmmit -a -m“注释”	提交到本地版本库
+git push                        提交到远程仓库
+git pull                 	更新代码
+git clone github地址 目录名称	克隆
+分支：
+git checkout 新的分支名称	创建分支
+git checkout 已存在的分支名称	查看当前分支
+git branch			查看当前所在分支
+
+版本会退：
+git log				查看提交历史
+git reset			回退到最新版本
+git reset --hand commitID 	会退到指定的历史版本
+
+github常用
+git status 			查看当前目录状态
+git add ./具体文件名称   	提交到缓存区
+git conmmit -a -m“注释”	提交到本地版本库
+git remote add origin github地址	把本地仓库和github仓库进行关联
+git push -u origin master       提交到github仓库
+git pull origin master		从github仓库更新
+
+
+删除：
+git rm 具体文件名称              删除文件
